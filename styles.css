@@ -6,21 +6,22 @@ body {
     background-color: #000000; 
     color: #E0E0E0; 
     line-height: 1.6;
-    background-image: url('your-background-image.jpg'); /* Add your image URL here */
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;   
- /* Prevent image repeating */
+    background-image: url('https://raw.githubusercontent.com/princybalisky90/experiment1/main/image-generation_AjCSGTpqvqUBJsxY0Tq1fDdcoiy2_1731439795543_result.jpeg'); /* Use your actual image URL here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 
 /* Header styling */
 header {
-    background-color: rgba(your-color-values, 0.8); /* Adjust the opacity (0.8 = 80%) */
-    /* ...other styles... */
+    background-color: rgba(100, 50, 150, 0.8); /* Example color - adjust as needed */ 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 header h1 {
-    color: #FFFFFF; /* White for the main title */
+    color: #FFFFFF; 
 }
 
 /* Navigation styling */
@@ -35,33 +36,33 @@ nav ul li {
 }
 
 nav a {
-    color: #00FF00; /* Green links */
+    color: #00FF00; 
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #FFD700; /* Gold color on hover */
+    color: #FFD700; 
 }
 
 /* Hero section */
 #hero {
-    background-image: url('https://raw.githubusercontent.com/princybalisky90/experiment1/main/image-generation_AjCSGTpqvqUBJsxY0Tq1fDdcoiy2_1731439795543_result.jpeg'); /* Background image */
-    background-size: cover; /* Ensures background covers entire section */
-    background-position: center; /* Centers the background image */
-    padding: 100px 20px; /* Increased padding for a larger hero section */
+    /* Remove background-image from here, it's now on the body */
+    background-size: cover; 
+    background-position: center; 
+    padding: 100px 20px; 
     text-align: center;
-    color: #FFFFFF; /* White text for readability */
+    color: #FFFFFF; 
 }
 
 #hero img {
-    max-width: 150px; /* Adjust width of image */
-    margin-top: 20px; /* Space between text and image */
+    max-width: 150px; 
+    margin-top: 20px; 
 }
 
 .cta-button {
-    background: #4B0082; /* Dark purple */
+    background: #4B0082;
     padding: 15px 30px;
     border: none;
     color: #FFFFFF;
@@ -72,14 +73,14 @@ nav a:hover {
 }
 
 .cta-button:hover {
-    background: #FFD700; /* Gold on hover */
+    background: #FFD700; 
 }
 
 /* About section styling */
 #about {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 40px 20px; 
-    color: #FFFFFF; 
+    color: #FFFFFF;
     text-align: center; 
 }
 
@@ -91,14 +92,14 @@ section {
 }
 
 section h2 {
-    color: #4B0082; /* Purple headings */
+    color: #4B0082;
     font-size: 2.5rem;
 }
 
 section p {
     max-width: 800px;
     margin: 0 auto;
-    color: #D3D3D3; /* Light gray for secondary text */
+    color: #D3D3D3; 
 }
 
 /* List styling */
@@ -108,7 +109,7 @@ section ul {
 }
 
 section ul li {
-    background: rgba(75, 0, 130, 0.5); /* Semi-transparent purple */
+    background: rgba(75, 0, 130, 0.5); 
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
