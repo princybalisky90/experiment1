@@ -1,17 +1,26 @@
+/* Base styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #000000; /* Black background */
+    color: #E0E0E0; /* Light gray for text */
+    line-height: 1.6;
 }
 
+/* Header styling */
 header {
-    background: #1a1a1a;
+    background: linear-gradient(135deg, #4B0082, #00FF00); /* Purple to green gradient */
     padding: 20px;
     text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
+header h1 {
+    color: #FFFFFF; /* White for the main title */
+}
+
+/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -23,26 +32,96 @@ nav ul li {
 }
 
 nav a {
-    color: #ffffff;
+    color: #00FF00; /* Green links */
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-section {
-    padding: 20px;
-    text-align: center;
+nav a:hover {
+    color: #FFD700; /* Gold color on hover */
 }
 
+/* Hero section */
 #hero {
-    background: #007bff;
+    background-color: #008000; /* Green background */
     padding: 50px 20px;
-    color: #fff;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 .cta-button {
-    background: #ffcc00;
-    padding: 10px 20px;
-    border:
+    background: #4B0082; /* Dark purple */
+    padding: 15px 30px;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
 
-p {
-    color: #0F9D58; /* Google Green */
+.cta-button:hover {
+    background: #FFD700; /* Gold on hover */
+}
+
+/* Section styling */
+section {
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+section h2 {
+    color: #4B0082; /* Purple headings */
+    font-size: 2.5rem;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #D3D3D3; /* Light gray for secondary text */
+}
+
+/* List styling */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background: rgba(75, 0, 130, 0.5); /* Semi-transparent purple */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background: #1a1a1a;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
 }
