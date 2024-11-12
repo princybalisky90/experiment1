@@ -12,6 +12,13 @@ body {
     background-repeat: no-repeat; 
 }
 
+h1 { /* Styles for the heading - This is the new code */
+    position: relative;  
+    top: 100px; /* Adjust distance from the top */
+    text-align: center; /* Center the heading */
+    color: white; /* Or any color you prefer */
+}
+
 /* Header styling */
 header {
     background-color: rgba(100, 50, 150, 0.8); /* Example color - adjust as needed */ 
