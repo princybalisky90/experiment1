@@ -44,10 +44,17 @@ nav a:hover {
 
 /* Hero section */
 #hero {
-    background-color: #008000; /* Green background */
-    padding: 50px 20px;
+    background-image: url('path-to-your-background.jpg'); /* Add your background image here */
+    background-size: cover; /* Ensures background covers entire section */
+    background-position: center; /* Centers the background image */
+    padding: 100px 20px; /* Increased padding for a larger hero section */
     text-align: center;
     color: #FFFFFF;
+}
+
+#hero img {
+    max-width: 150px; /* Adjust width of image */
+    margin-top: 20px; /* Space between text and image */
 }
 
 .cta-button {
