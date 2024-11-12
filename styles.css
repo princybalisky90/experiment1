@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #007BFF;
+    background: #4285F4; /* Google Blue */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -38,6 +38,21 @@ section {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #f4f4f4;
+    background: #ffffff; /* White background for footer */
+    color: #000000; /* Black text for contrast */
     position: relative;
     bottom: 0;
+    border-top: 2px solid #DB4437; /* Google Red border */
+}
+
+h1, h2 {
+    color: #DB4437; /* Google Red */
+}
+
+h2 {
+    border-bottom: 2px solid #F4B400; /* Google Yellow underline */
+}
+
+p {
+    color: #0F9D58; /* Google Green */
+}
