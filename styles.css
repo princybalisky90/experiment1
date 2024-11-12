@@ -84,9 +84,6 @@ nav a:hover {
 
 /* Section styling */
 section {
-    background-image: url('background alien 2.jpeg'); /* Add your About section background image link here */
-    background-size: cover; /* Ensures background covers entire section */
-    background-position: center; /* Centers the background image */
     padding: 40px 20px;
     text-align: center;
     border-bottom: 1px solid #333;
